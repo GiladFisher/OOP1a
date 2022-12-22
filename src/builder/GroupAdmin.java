@@ -9,6 +9,10 @@ public class GroupAdmin implements Sender{
     @Override
     public void register(Member obj) {
         members.add(obj);
+        ((ConcreteMember) obj).group = this;
+        for (Member member : members) {
+            member.update(usb);
+        }
     }
 
     @Override
