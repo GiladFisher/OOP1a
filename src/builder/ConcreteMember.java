@@ -10,6 +10,6 @@ public class ConcreteMember implements Member{
     }
     @Override
     public void update(UndoableStringBuilder usb) {
-        this.usb = usb;
+        this.usb = new UndoableStringBuilder(usb.toString());
     }
 }
