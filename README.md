@@ -6,9 +6,9 @@ The class above inherits Java's StringBuilder's functions and properties, with t
 ## Table of Contents
 
 - Explanation
+- Class Diagram
 - Installation
 - Tests
-- Class Diagram
 
 ### Explanation
 
