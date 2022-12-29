@@ -19,7 +19,7 @@ This means for every action made to the class' StringBuilder, we store an 'UndoD
 
 For example:
 Given the StringBuilder that holds the String "This is a ", if we append "String" to it, we would get "This is a String".
-In order to undo the appension, we store an 'UndoData' node containing DEL, and the index integers of "String" in the StringBuilder.
+In order to undo the appension, we store an 'UndoData' node containing DEL, and the index integers of "String" in the StringBuilder's String.
 
 #### The Observer Design Pattern
 
