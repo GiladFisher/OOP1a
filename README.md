@@ -29,4 +29,6 @@ for the "Tests" file you will also need "maven" Framework.
 
 ### Class Diagram
 
+![Observer](https://user-images.githubusercontent.com/117165853/209974285-29c62042-3093-4d20-8af6-9e8d61b20529.jpg)
+
 
